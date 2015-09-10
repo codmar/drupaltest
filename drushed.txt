@@ -1,0 +1,6 @@
+drush dl features
+drush en -y features
+drush dl views
+drush en -y views
+drush dl rules
+drush en -y rules
