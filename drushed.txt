@@ -1,9 +1,42 @@
+drush dl admin_menu
+drush dl module_filter
+
+
 drush dl features
 drush en -y features
 drush dl diff
 drush en -y diff
+drush dl devel
+drush en -y devel, devel_generate
+
+drush dl rules
+drush en -y rules
 
 drush dl views
 drush en -y views
-drush dl rules
-drush en -y rules
+drush dl panel
+drush en -y panels
+drush dl ds
+drush en -y ds, ds_forms
+
+drush dl entityreference
+drush -en -y entityreference
+
+drush dl addressfield
+drush en -y addressfield
+drush dl geofield
+drush en -y geofield, geofield_map
+drush dl geocoder
+drush en -y geocoder
+
+
+drush dl token
+drush en -y token
+drush dl pathauto
+drush en -y pathauto
+drush dl page_title
+drush en -y page_title
+drush dl auto_nodetitle
+drush en -y auto_nodetitle
+
+
